@@ -1,0 +1,28 @@
+
+public class Movie {
+	String title;
+	String director;
+	void show() { System.out.println(title + " " + director); }
+	
+	public Movie() {
+		this("","");
+		System.out.println("생성자 호출됨");
+	}
+	
+	public Movie(String title) {
+		this(title, "봉준호 감독");
+	}
+	
+	public Movie(String title, String director) {
+		this.title = title; this.director = director;
+	}
+	
+	public static void main(String[] args) {
+		Movie Titanic = new Movie("타이타닉", "제임스");
+		Movie Parasite = new Movie("기생충");
+		Movie Snowpi = new Movie("설국열차");
+		Parasite.show();
+		Snowpi.show();
+	}
+
+}

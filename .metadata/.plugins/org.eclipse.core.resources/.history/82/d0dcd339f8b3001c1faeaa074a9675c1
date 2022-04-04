@@ -1,0 +1,12 @@
+package day4;
+
+public class Op {
+	public static int sum(int a, int b) {return a+b;}
+	public static int min(int a, int b) {return a-b;}
+	public static int mul(int a, int b) {return a*b;}
+	public static double div(int a, int b) {return a/b}
+}
+
+public class OpEx {
+	public sta
+}

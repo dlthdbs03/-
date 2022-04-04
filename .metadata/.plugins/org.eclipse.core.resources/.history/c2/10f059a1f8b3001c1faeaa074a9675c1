@@ -1,0 +1,16 @@
+class Op {
+	public static int sum(int a, int b) {return a+b;}
+	public static int min(int a, int b) {return a-b;}
+	public static int mul(int a, int b) {return a*b;}
+	public static double div(int a, int b) {return a/b}
+}
+
+public class OpEx {
+	public static void main(String[] args) {
+		System.out.println(Op.sum(100, 10000));
+		System.out.println(Op.min(100, 10000));
+		System.out.println(Op.mul(100, 10000));
+		System.out.println(Op.div(2039201, 10000));
+	}
+
+}
